@@ -1,1 +1,19 @@
 from: git-prod-1.0
+
+rabbit-mq:
+  host: rabbit-mq
+  port: 5672
+  username: guest
+  password: guest
+
+bot-manager:
+  host: bot-manager
+  port: 8101
+
+service-discovery:
+  host: service-discovery
+  port: 8100
+
+docker-api:
+  host: docker-api
+  port: 5000

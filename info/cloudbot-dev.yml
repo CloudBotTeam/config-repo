@@ -1,1 +1,19 @@
 from: git-dev-1.0
+
+rabbit-mq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
+bot-manager:
+  host: localhost
+  port: 8101
+
+service-discovery:
+  host: localhost
+  port: 8100
+
+docker-api:
+  host: localhost
+  port: 5000
